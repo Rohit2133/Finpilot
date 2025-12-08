@@ -1,0 +1,31 @@
+.services-page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.services-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services-header h1 {
+  color: #6e0404;
+  font-size: 32px;
+}
+
+.services-header p {
+  color: #555;
+  margin-top: 10px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Cards Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
