@@ -22,6 +22,6 @@ uvicorn==0.30.6
 tiktoken==0.7.0
 protobuf==4.25.3
 
-unstructured==0.14.9
+
 pypdf==5.1.0
 
